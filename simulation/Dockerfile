@@ -66,10 +66,6 @@ RUN echo "source /root/ros2_ws/desert/environment" >> /root/.bashrc
 RUN mkdir -p /root/ros2_ws/rmw_desert && \
     git clone https://github.com/signetlabdei/rmw_desert /root/ros2_ws/rmw_desert
 
-# Download rmw_desert files
-RUN mkdir -p /root/ros2_ws/rmw_desert && \
-    git clone https://github.com/signetlabdei/rmw_desert /root/ros2_ws/rmw_desert
-
 # Download acoustic_bluerov2 files
 RUN mkdir -p /root/ros2_ws/acoustic_bluerov2 && \
     git clone https://github.com/Magform/acoustic_bluerov2 /root/ros2_ws/acoustic_bluerov2

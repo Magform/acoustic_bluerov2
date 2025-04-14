@@ -1,4 +1,3 @@
-root@1b8504b4be04:~/myWork/bridge# cat sub.py
 import os
 import json
 import socket
