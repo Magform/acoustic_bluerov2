@@ -15,8 +15,12 @@ RUN apt-get update && apt-get install -y \
     ros-${ROS_DISTRO}-slider-publisher \
     ros-${ROS_DISTRO}-ros-gz \
     ros-${ROS_DISTRO}-rmw-desert \
+    ros-${ROS_DISTRO}-rclcpp \
+    ros-${ROS_DISTRO}-std-msgs \
     neovim \
+    evtest \
     python3-colcon-common-extensions \
+    python3-pip \
     git && \
     rm -rf /var/lib/apt/lists/*
 
@@ -70,6 +74,9 @@ RUN mkdir -p /root/ros2_ws/rmw_desert && \
 RUN mkdir -p /root/ros2_ws/acoustic_bluerov2 && \
     git clone https://github.com/Magform/acoustic_bluerov2 /root/ros2_ws/acoustic_bluerov2
 RUN cp /root/ros2_ws/acoustic_bluerov2/bridge/ros_allowed_topics.conf /root/ros2_ws/rmw_desert/ros_allowed_topics.conf
+WORKDIR /root/ros2_ws/acoustic_bluerov2/controller
+RUN colcon build 
+RUN echo "source /root/ros2_ws/acoustic_bluerov2/install/setup.sh" >> /root/.bashrc
 
 # Set working directory for the container
 WORKDIR /root

@@ -7,6 +7,7 @@ services:
     image: simulator_desert-bluerov_img
     stdin_open: true
     tty: true
+    privileged: true #for read keyboard input
     environment:
       DISPLAY: "${DISPLAY}"
       QT_X11_NO_MITSHM: "1"
@@ -16,4 +17,4 @@ services:
 
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
-    command: bash
+      - /dev/input:/dev/input:rw
