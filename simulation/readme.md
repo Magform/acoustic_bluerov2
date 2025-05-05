@@ -34,12 +34,9 @@ This guide explains how to configure and start the simulation environment for th
 In the first terminal:
 
 - Navigate to the DESERT test directory:
-  ```bash
-  cd /root/ros2_ws/rmw_desert
-  ```
-
 - Start the DESERT simulation:
   ```bash
+  cd /root/ros2_ws/acoustic_bluerov2/bridge
   ns test_uwApplicationTCP.tcl
   ```
 
@@ -83,3 +80,8 @@ In terminal 5:
   cd /root/ros2_ws/acoustic_bluerov2/bridge
   RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 topic pub /bluerov2/cmd_thruster1 std_msgs/msg/Float32 "{data: 10}"
   ```
+
+---
+
+### 5. How use the controller
+
