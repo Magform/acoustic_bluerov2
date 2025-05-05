@@ -1,4 +1,3 @@
-root@9b5df9fd9e5d:~/ros2_ws/controller/src/bluerov2_controller# cat package.xml
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
