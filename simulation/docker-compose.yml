@@ -7,12 +7,12 @@ services:
     image: simulator_desert-bluerov_img
     stdin_open: true
     tty: true
-    privileged: true #for read keyboard input
+    privileged: true # required for /dev/input (keyboard) access
     environment:
       DISPLAY: "${DISPLAY}"
       QT_X11_NO_MITSHM: "1"
       QT_QPA_PLATFORM: "xcb"
-      NVIDIA_VISIBLE_DEVICE: all
+      NVIDIA_VISIBLE_DEVICES: all
       NVIDIA_DRIVER_CAPABILITIES: all
 
     volumes:

@@ -22,8 +22,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-add_executable(keyboard_thruster_controller src/keyboard_thruster_controller.cpp)
-ament_target_dependencies(keyboard_thruster_controller rclcpp std_msgs)
+add_executable(keyboard_thruster_controller
+        src/keyboard_thruster_controller.cpp
+        src/thruster_controller
+)
+ament_target_dependencies(keyboard_thruster_controller
+        rclcpp
+        std_msgs
+)
 install(TARGETS keyboard_thruster_controller DESTINATION lib/${PROJECT_NAME})
+
+install(FILES keymap.conf DESTINATION share/${PROJECT_NAME})
 
 ament_package()

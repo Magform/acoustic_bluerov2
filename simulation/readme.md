@@ -36,8 +36,8 @@ In the first terminal:
 - Navigate to the DESERT test directory:
 - Start the DESERT simulation:
   ```bash
-  cd /root/ros2_ws/acoustic_bluerov2/bridge
-  ns test_uwApplicationTCP.tcl
+  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
+  ns uwApplicationTCP.tcl
   ```
 
 ---
@@ -48,13 +48,13 @@ In two separate terminals:
 
 - Terminal 2: Run the publisher
   ```bash
-  cd /root/ros2_ws/acoustic_bluerov2/bridge
+  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
   python3 pub.py
   ```
 
 - Terminal 3: Run the subscriber
   ```bash
-  cd /root/ros2_ws/acoustic_bluerov2/bridge
+  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
   python3 sub.py
   ```
 
@@ -77,7 +77,7 @@ In terminal 5:
 
 - Use the following command to send thruster commands to the BlueROV:
   ```bash
-  cd /root/ros2_ws/acoustic_bluerov2/bridge
+  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
   RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 topic pub /bluerov2/cmd_thruster1 std_msgs/msg/Float32 "{data: 10}"
   ```
 
@@ -85,3 +85,8 @@ In terminal 5:
 
 ### 5. How use the controller
 
+In terminal 5:
+```bash
+  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
+   RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 run bluerov2_controller keyboard_thruster_controller --ros-args -p keymap_file:=/root/ros2_ws/src/acoustic_bluerov2/controller/src/bluerov2_controller/keymap.conf 
+```
