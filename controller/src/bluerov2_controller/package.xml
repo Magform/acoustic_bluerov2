@@ -3,7 +3,7 @@
 <package format="3">
   <name>bluerov2_controller</name>
   <version>0.0.1</version>
-  <description></description>
+  <description>Tthruster controller for BlueROV2 using ROS2</description>
   <maintainer email="work@nicolasferraresso.dev">Magform</maintainer>
   <license>MIT</license>
 
@@ -18,3 +18,4 @@
   <export>
     <build_type>ament_cmake</build_type>
   </export>
+</package>
