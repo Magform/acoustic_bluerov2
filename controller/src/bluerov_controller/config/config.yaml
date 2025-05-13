@@ -2,9 +2,9 @@ max_speed: 10.0                 # Newton
 sending_time: 1.0               # Seconds
 thruster: 6                     # Number of different Thruster
 keymap:
-  ax0: [1, 1, 1, 1, 0, 0]       # Horizontal Left Axis [left to right]
-  ax1: [1, -1, -1, 1, 0, 0]     # Vertical Left Axis [bottom to top]
-  ax2: [0, 0, 0, 0, 0, 0]       # Left Trigger [not pressed to fully pressed]
-  ax3: [0, 0, 0, 0, 0, 0]       # Horizontal Right Axis [left to right]
-  ax4: [0, 0, 0, 0, -1, -1]       # Vertical Right Axis [bottom to top]
-  ax5: [0, 0, 0, 0, 0, 0]       # Right Trigger [not pressed to fully pressed]
+  ax0: [1, -1, -1, 1, 0, 0]     # Vertical Left Axis
+  ax1: [1, 1, 1, 1, 0, 0]       # Horizontal Left
+  ax2: [0, 0, 0, 0, -1, 1]      # Vertical Right Axis
+  ax3: [0, 0, 0, 0, 0, 0]       # Horizontal Right Axis
+  ax4: [0, 0, 0, 0, -1, -1]     # Left Trigger
+  ax5: [0, 0, 0, 0, 0, 0]       # Right Trigger

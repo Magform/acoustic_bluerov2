@@ -57,25 +57,15 @@ float ControllerReader::apply_dead_zone(float value){
 void ControllerReader::read_loop(){
     while (!_stop_thread) {
         SDL_JoystickUpdate();
-
-        // Normalize value from -32768 to 32767 and apply dead_zone
-        void ControllerReader::read_loop(){
-            while (!_stop_thread) {
-                SDL_JoystickUpdate();
         
-                // Normalize axis values [-32768, 32767] -> [-1.0f, 1.0f]
-                _axes.leftHorizontal.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 0) / 32767.0f));
-                _axes.leftVertical.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 1) / 32767.0f));
-                _axes.leftTrigger.store(SDL_JoystickGetAxis(_joystick, 2) / 32767.0f);
-                _axes.rightHorizontal.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 3) / 32767.0f));
-                _axes.rightVertical.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 4) / 32767.0f));
-                _axes.rightTrigger.store(SDL_JoystickGetAxis(_joystick, 5) / 32767.0f);
+        // Normalize axis values [-32768, 32767] -> [-1.0f, 1.0f]
+        _axes.leftHorizontal.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 0) / 32767.0f));
+        _axes.leftVertical.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 1) / 32767.0f));
+        _axes.leftTrigger.store(SDL_JoystickGetAxis(_joystick, 2) / 32767.0f);
+        _axes.rightHorizontal.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 3) / 32767.0f));
+        _axes.rightVertical.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 4) / 32767.0f));
+        _axes.rightTrigger.store(SDL_JoystickGetAxis(_joystick, 5) / 32767.0f);
         
-                std::this_thread::sleep_for(std::chrono::milliseconds(50));
-            }
-        }
-        
-
         std::this_thread::sleep_for(std::chrono::milliseconds(50));
     }
 }
