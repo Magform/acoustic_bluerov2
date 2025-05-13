@@ -5,27 +5,28 @@
 #include <thread>
 #include <SDL2/SDL.h>
 
+#include "controller_axes.h"
+
 class ControllerReader {
-public:
-    ControllerReader(std::atomic<float>& axisLeftVertical, std::atomic<float>& axisLeftHorizontal,
-                     std::atomic<float>& axisRightVertical, std::atomic<float>& axisRightHorizontal);
-    ~ControllerReader();
+    public:
+        ControllerReader(ControllerAxes& axes, float dead_zone);
+        ~ControllerReader();
+        
+        void start();
+        void stop();
     
-    void start();
-    void stop();
-
-private:
-    void read_loop();
-
-    std::atomic<float>& _axisLeftVertical;
-    std::atomic<float>& _axisLeftHorizontal;
-    std::atomic<float>& _axisRightVertical;
-    std::atomic<float>& _axisRightHorizontal;
-
-    std::atomic<bool> _stop_thread;
-    std::thread _reader_thread;
-
-    SDL_Joystick* _joystick;
-};
+    private:
+        void read_loop();
+        float apply_dead_zone(float value);
+    
+        ControllerAxes& _axes;
+    
+        float _dead_zone;
+        std::atomic<bool> _stop_thread;
+        std::thread _reader_thread;
+    
+        SDL_Joystick* _joystick;
+    };
+    
 
 #endif // CONTROLLER_READER_H

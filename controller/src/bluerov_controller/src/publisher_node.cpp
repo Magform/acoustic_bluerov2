@@ -4,14 +4,9 @@
 #include <iostream>
 #include <chrono>
 
-PublisherNode::PublisherNode(std::atomic<float>& axisLeftVertical, std::atomic<float>& axisLeftHorizontal,
-                             std::atomic<float>& axisRightVertical, std::atomic<float>& axisRightHorizontal,
-                             const std::string& config_path)
-    : Node("controller_publisher"),
-      _axisLeftVertical(axisLeftVertical),
-      _axisLeftHorizontal(axisLeftHorizontal),
-      _axisRightVertical(axisRightVertical),
-      _axisRightHorizontal(axisRightHorizontal) {
+PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_path)
+    : Node("controller_publisher"), _axes(axes)
+    {
 
     YAML::Node config = YAML::LoadFile(config_path);
     _max_speed = config["max_speed"].as<float>();
@@ -37,16 +32,18 @@ PublisherNode::PublisherNode(std::atomic<float>& axisLeftVertical, std::atomic<f
 
 void PublisherNode::timer_callback() {
     std::vector<float> axis_values = {
-        _axisLeftVertical.load(),
-        _axisLeftHorizontal.load(),
-        _axisRightVertical.load(),
-        _axisRightHorizontal.load()
+        _axes.leftVertical.load(),
+        _axes.leftHorizontal.load(),
+        _axes.rightVertical.load(),
+        _axes.rightHorizontal.load(),
+        _axes.leftTrigger.load(),
+        _axes.rightTrigger.load()
     };
 
     std::vector<float> thruster_values(_thruster_count, 0.0f);
 
-    for (int axis_idx = 0; axis_idx < 4; ++axis_idx) {
-        std::string axis_key = "ax" + std::to_string(axis_idx + 1);
+    for (int axis_idx = 0; axis_idx < 6; ++axis_idx) {
+        std::string axis_key = "ax" + std::to_string(axis_idx);
         if (_keymap.find(axis_key) != _keymap.end()) {
             const auto& multipliers = _keymap[axis_key];
             for (size_t i = 0; i < multipliers.size(); ++i) {
@@ -56,8 +53,9 @@ void PublisherNode::timer_callback() {
     }
 
     for (size_t i = 0; i < _thruster_publishers.size(); ++i) {
-        std_msgs::msg:Float64 msg;
+        std_msgs::msg::Float64 msg;
         msg.data = thruster_values[i] * _max_speed;
         _thruster_publishers[i]->publish(msg);
     }
 }
+
