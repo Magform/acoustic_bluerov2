@@ -18,7 +18,7 @@ This guide explains how to configure and start the simulation environment for th
 
 3. Attach to the simulator container:
    ```bash
-   docker exec -it simulator_desert-bluerov
+   docker exec -it simulator_desert-bluerov bash
    ```
 
 ---
@@ -85,8 +85,3 @@ In terminal 5:
 
 ### 5. How use the controller
 
-In terminal 5:
-```bash
-  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
-   RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 run bluerov2_controller keyboard_thruster_controller --ros-args -p keymap_file:=/root/ros2_ws/src/acoustic_bluerov2/controller/src/bluerov2_controller/keymap.conf 
-```

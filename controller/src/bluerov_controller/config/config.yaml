@@ -1,0 +1,8 @@
+max_speed: 100.0                # Newton
+sending_time: 1.0               # Seconds
+thruster: 6                     # Number of different Thruster
+keymap:
+  ax1: [1, 1, 1, 1, 0, 0]       # Vertical Left Axis
+  ax2: [1, -1, -1, 1, 0, 0]     # Horizontal Left Axis
+  ax3: [0, 0, 0, 0, 0, 1]       # Vertical Right Axis
+  ax4: [0, 0, 0, 0, 0, 0]       # Horizontal Right Axis
