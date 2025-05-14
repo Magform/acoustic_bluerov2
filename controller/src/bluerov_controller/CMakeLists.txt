@@ -11,16 +11,17 @@ find_package(std_msgs REQUIRED)
 find_package(SDL2 REQUIRED)
 find_package(yaml-cpp REQUIRED)
 
+
 include_directories(
   include
   ${SDL2_INCLUDE_DIRS}
 )
 
 add_executable(xbox
-  
   src/main.cpp
   src/controller_reader.cpp
   src/publisher_node.cpp
+  src/gui_viewer.cpp
 )
 
 ament_target_dependencies(xbox

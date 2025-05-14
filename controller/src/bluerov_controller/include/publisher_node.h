@@ -17,13 +17,16 @@ private:
     void timer_callback();
 
     ControllerAxes& _axes;
+    std::map<std::string, std::vector<float>> _keymap;
+    std::vector<rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr> _thruster_publishers;
 
     float _max_speed;
     float _sending_time;
-    int _thruster_count;
-    std::map<std::string, std::vector<float>> _keymap;
+    float _threshold;
 
-    std::vector<rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr> _thruster_publishers;
+    int _thruster_count;
+    std::vector<float> _previous_thruster_values;
+
     rclcpp::TimerBase::SharedPtr _timer;
 };
 

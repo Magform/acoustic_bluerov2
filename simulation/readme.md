@@ -84,4 +84,7 @@ In terminal 5:
 ---
 
 ### 5. How use the controller
-
+  ```bash
+  cd /root/ros2_ws/src/acoustic_bluerov2/bridge
+  RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 run bluerov_controller xbox
+  ```

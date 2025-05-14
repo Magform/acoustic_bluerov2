@@ -3,6 +3,7 @@
 #include <fstream>
 #include <iostream>
 #include <chrono>
+#include <cmath>
 
 PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_path)
     : Node("controller_publisher"), _axes(axes)
@@ -11,6 +12,7 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
     YAML::Node config = YAML::LoadFile(config_path);
     _max_speed = config["max_speed"].as<float>();
     _sending_time = config["sending_time"].as<float>();
+    _threshold = config["threshold"].as<float>();
 
     for (const auto& item : config["keymap"]) {
         std::string axis = item.first.as<std::string>();
@@ -24,6 +26,8 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
             "/bluerov2/cmd_thruster" + std::to_string(i), 10);
         _thruster_publishers.push_back(pub);
     }
+
+    _previous_thruster_values.resize(_thruster_count, 0.0f);
 
     // Store timer to keep it alive
     _timer = this->create_wall_timer(std::chrono::duration<double>(_sending_time),
@@ -42,6 +46,7 @@ void PublisherNode::timer_callback() {
 
     std::vector<float> thruster_values(_thruster_count, 0.0f);
 
+    // Calculate thruster values based on axis values and keymap
     for (int axis_idx = 0; axis_idx < 6; ++axis_idx) {
         std::string axis_key = "ax" + std::to_string(axis_idx);
         if (_keymap.find(axis_key) != _keymap.end()) {
@@ -52,10 +57,15 @@ void PublisherNode::timer_callback() {
         }
     }
 
+    // Check if the change in any thruster value exceeds the threshold
     for (size_t i = 0; i < _thruster_publishers.size(); ++i) {
-        std_msgs::msg::Float64 msg;
-        msg.data = thruster_values[i] * _max_speed;
-        _thruster_publishers[i]->publish(msg);
+        if (std::abs(thruster_values[i] - _previous_thruster_values[i]) > _threshold) {
+            // If the value exceeds the threshold, publish it
+            std_msgs::msg::Float64 msg;
+            msg.data = thruster_values[i] * _max_speed;
+            _thruster_publishers[i]->publish(msg);
+        }
     }
+    
+    _previous_thruster_values = thruster_values;
 }
-
