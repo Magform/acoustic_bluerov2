@@ -10,7 +10,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(SDL2 REQUIRED)
 find_package(yaml-cpp REQUIRED)
-
+find_package(geometry_msgs REQUIRED)
 
 include_directories(
   include
@@ -22,10 +22,12 @@ add_executable(xbox
   src/controller_reader.cpp
   src/publisher_node.cpp
   src/gui_viewer.cpp
+  src/status_node.cpp
 )
 
 ament_target_dependencies(xbox
   rclcpp
+  geometry_msgs
   std_msgs
 )
 

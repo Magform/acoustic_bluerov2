@@ -2,6 +2,7 @@ max_speed: 10.0                 # Newton
 sending_time: 1.0               # Seconds
 thruster: 6                     # Number of different Thruster
 threshold: 0.1                  # Threshold for sending message
+pose: /bluerov2/pose_gt         # Pose that the rover send back to use (need to be geometry_msgs/msg/Pose) [set NONE for remove it]
 keymap:
   ax0: [-1, -1, -1, -1, 0, 0]     # Vertical Left Axis
   ax1: [-1, 1, 1, -1, 0, 0]       # Horizontal Left
