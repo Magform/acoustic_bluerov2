@@ -5,6 +5,8 @@
 The goal of this project is to control a **BlueROV2** via **acoustic communication** and an **XBOX controller**, first within a simulation environment and eventually in the real world.
 The simulation uses **Gazebo** to visualize the BlueROV2 and **DESERT** to emulate the underwater acoustic communication channel.
 
+---
+
 ## How to Use
 
 > Ensure Docker is installed and properly configured to support **ROS2** and **Gazebo**.
@@ -91,6 +93,15 @@ cd /root/ros2_ws/src/acoustic_bluerov2/bridge
 RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 run bluerov_controller xbox
 ```
 
+#### Terminal 6 – Read Position
+
+To read the position of the BlueROV2:
+
+```bash
+ros2 topic echo /bluerov2/pose_gt geometry_msgs/msg/Pose
+```
+
+---
 
 ## Controller Configuration
 
@@ -98,20 +109,23 @@ The controller reads configuration from a file in the current working directory 
 This file defines control parameters and joystick mapping:
 
 ```yaml
-max_speed: 10.0             # Maximum thrust in Newtons
-sending_time: 1.0           # Command send interval in seconds
-thruster: 6                 # Number of thrusters
-threshold: 0.1              # Axis movement threshold to trigger a command
+max_speed: 10.0                 # Maximum speed (N)
+sending_time: 1.0               # Time interval for sending messages (s)
+thruster: 6                     # Number of thrusters
+threshold: 0.1                  # Joystick threshold for sending a message
+pose: /bluerov2/pose_gt         # Topic for sending back position (set NONE to disable)
 keymap:
-  ax0: [-1, -1, -1, -1,  0,  0]  # Left stick vertical
-  ax1: [-1,  1,  1, -1,  0,  0]  # Left stick horizontal
-  ax2: [ 0,  0,  0,  0, -1,  1]  # Right stick vertical
-  ax3: [ 0,  1, -1,  0,  0,  0]  # Right stick horizontal
-  ax4: [ 0,  0,  0,  0,  0,  0]  # Left trigger
-  ax5: [ 0,  0,  0,  0,  0,  0]  # Right trigger
+  ax0: [-1, -1, -1, -1, 0, 0]   # Vertical Left Axis
+  ax1: [-1, 1, 1, -1, 0, 0]     # Horizontal Left Axis
+  ax2: [0, 0, 0, 0, -1, 1]      # Vertical Right Axis
+  ax3: [0, 1, -1, 0, 0, 0]      # Horizontal Right Axis
+  ax4: [0, 0, 0, 0, 0, 0]       # Left Trigger
+  ax5: [0, 0, 0, 0, 0, 0]       # Right Trigger
 ```
 
-> You can adapt this mapping to your controller model or desired control behavior.
+> You can adapt this mapping to your controller model or preferred control behavior.
+
+---
 
 ## Conclusions & Future Developments
 
