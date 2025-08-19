@@ -1,12 +1,17 @@
 #include "controller_reader.h"
 #include <iostream>
+#include <yaml-cpp/yaml.h>
 #include <stdexcept>
 #include <chrono>
 #include <thread>
 
-ControllerReader::ControllerReader(ControllerAxes& axes, float dead_zone)
-    : _axes(axes), _dead_zone(dead_zone), _stop_thread(false), _reader_thread(), _joystick(nullptr)
+ControllerReader::ControllerReader(ControllerAxes& axes, const std::string& config_path)
+    : _axes(axes), _stop_thread(false), _reader_thread(), _joystick(nullptr)
     {
+
+    YAML::Node config = YAML::LoadFile(config_path);
+    _dead_zone = config["dead_zone"].as<float>();
+
     if (SDL_Init(SDL_INIT_JOYSTICK) < 0) {
         std::cerr << "Failed to init SDL: " << SDL_GetError() << std::endl;
         throw std::runtime_error("SDL init failed");

@@ -10,7 +10,7 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
     {
 
     YAML::Node config = YAML::LoadFile(config_path);
-    _max_speed = config["max_speed"].as<float>();
+    _max_force = config["max_force"].as<float>();
     _sending_time = config["sending_time"].as<float>();
     _threshold = config["threshold"].as<float>();
 
@@ -62,10 +62,10 @@ void PublisherNode::timer_callback() {
         if (std::abs(thruster_values[i] - _previous_thruster_values[i]) > _threshold) {
             // If the value exceeds the threshold, publish it
             std_msgs::msg::Float64 msg;
-            msg.data = thruster_values[i] * _max_speed;
+            msg.data = thruster_values[i] * _max_force;
             _thruster_publishers[i]->publish(msg);
+            
+            _previous_thruster_values = thruster_values;
         }
     }
-    
-    _previous_thruster_values = thruster_values;
 }

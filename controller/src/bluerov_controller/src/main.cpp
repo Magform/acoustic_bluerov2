@@ -11,7 +11,7 @@
 #include <string>
 #include <filesystem>
 
-#define controller_dead_zone 0.2f
+#define CONFIG_FILE "config.yaml"
 
 int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
@@ -19,14 +19,14 @@ int main(int argc, char *argv[]) {
     ControllerAxes axes;
     Status status;
 
-    ControllerReader controller_reader(axes, controller_dead_zone);
+    ControllerReader controller_reader(axes, CONFIG_FILE);
     controller_reader.start();
 
     GuiViewer gui_viewer(axes, &status);
     gui_viewer.start();
 
-    auto publisher_node = std::make_shared<PublisherNode>(axes, "config.yaml");
-    auto status_node = std::make_shared<StatusNode>(status, "config.yaml");
+    auto publisher_node = std::make_shared<PublisherNode>(axes, CONFIG_FILE);
+    auto status_node = std::make_shared<StatusNode>(status, CONFIG_FILE);
 
     rclcpp::executors::MultiThreadedExecutor executor;
     executor.add_node(publisher_node);

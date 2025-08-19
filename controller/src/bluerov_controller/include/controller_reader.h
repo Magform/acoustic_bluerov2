@@ -4,12 +4,13 @@
 #include <atomic>
 #include <thread>
 #include <SDL2/SDL.h>
+#include <string>
 
 #include "controller_axes.h"
 
 class ControllerReader {
     public:
-        ControllerReader(ControllerAxes& axes, float dead_zone);
+        ControllerReader(ControllerAxes& axes, const std::string& config_path);
         ~ControllerReader();
         
         void start();

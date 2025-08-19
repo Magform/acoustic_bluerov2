@@ -20,7 +20,7 @@ private:
     std::map<std::string, std::vector<float>> _keymap;
     std::vector<rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr> _thruster_publishers;
 
-    float _max_speed;
+    float _max_force;
     float _sending_time;
     float _threshold;
 
