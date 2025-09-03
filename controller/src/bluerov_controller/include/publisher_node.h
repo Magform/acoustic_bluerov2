@@ -19,7 +19,7 @@ private:
 
     ControllerAxes& _axes;
     std::map<std::string, std::vector<float>> _keymap;
-    std::vector<rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr> _thruster_publishers;
+    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr _thruster_pub;
 
     float _max_force;
     float _sending_time;
