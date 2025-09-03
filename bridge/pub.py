@@ -1,40 +1,38 @@
 import os
-import json
 import socket
 import select
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float64
+from std_msgs.msg import Float64, Float64MultiArray
 from geometry_msgs.msg import Pose
 from threading import Thread
 from time import time
 
 class StandardPublisher(Node):
-    def __init__(self):
+    def __init__(self, thruster_count=6):
         super().__init__('standard_publisher')
-        self.topic_ids = {}
 
-        with open('ros_allowed_topics.conf', 'r') as f:
-            try:
-                config = json.load(f)
-            except json.JSONDecodeError as e:
-                self.get_logger().error(f"Invalid JSON: {e}")
-                raise
+        self.thruster_count = thruster_count
 
-        self.topic_publishers = {}
-        for topic_name, topic_id in config['topics'].items():
-            self.topic_ids[int(topic_id)] = topic_name
-            if topic_id == 100:
-                self.pose_sub = self.create_subscription(
-                    Pose,
-                    '/bluerov2/pose_gt',
-                    self.pose_callback,
-                    10
-                )
-                self.last_sent_pose_time = 0
-            else:
-                self.topic_publishers[int(topic_id)] = self.create_publisher(Float64, topic_name, 10)
+        # Publisher for the full array
+        self.thruster_pub = self.create_publisher(Float64MultiArray, '/bluerov2/cmd_thrusters', 10)
 
+        # Publishers for individual thrusters
+        self.thruster_split_pubs = [
+            self.create_publisher(Float64, f'/bluerov2/cmd_thruster{i+1}', 10)
+            for i in range(thruster_count)
+        ]
+
+        # Pose publisher (unchanged)
+        self.pose_sub = self.create_subscription(
+            Pose,
+            '/bluerov2/pose_gt',
+            self.pose_callback,
+            10
+        )
+        self.last_sent_pose_time = 0
+
+        # TCP socket
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self.sock.bind(('localhost', 12345))
@@ -44,9 +42,7 @@ class StandardPublisher(Node):
     def pose_callback(self, msg):
         now = time()
         if self.conn and now - self.last_sent_pose_time >= 10.0:
-            x = msg.position.x
-            y = msg.position.y
-            z = msg.position.z
+            x, y, z = msg.position.x, msg.position.y, msg.position.z
             data = f"100:{x},{y},{z}\n"
             try:
                 self.conn.sendall(data.encode())
@@ -72,10 +68,19 @@ class StandardPublisher(Node):
                         while '\n' in buffer:
                             line, buffer = buffer.split('\n', 1)
                             try:
-                                topic_id, value = line.split(':', 1)
-                                msg = Float64()
-                                msg.data = float(value)
-                                self.topic_publishers[int(topic_id)].publish(msg)
+                                topic_id, values = line.split(':', 1)
+                                if int(topic_id) == 200:  # thruster array
+                                    arr = [float(v) for v in values.split(',')]
+                                    msg = Float64MultiArray()
+                                    msg.data = arr
+                                    self.thruster_pub.publish(msg)
+
+                                    # Also publish split values
+                                    for i, v in enumerate(arr):
+                                        if i < len(self.thruster_split_pubs):
+                                            m = Float64()
+                                            m.data = v
+                                            self.thruster_split_pubs[i].publish(m)
                             except Exception as e:
                                 self.get_logger().error(f"Error parsing: {str(e)}")
             except Exception as e:
@@ -88,7 +93,7 @@ class StandardPublisher(Node):
 def main():
     os.environ.pop('RMW_IMPLEMENTATION', None)
     rclpy.init()
-    node = StandardPublisher()
+    node = StandardPublisher(thruster_count=6)
     spin_thread = Thread(target=rclpy.spin, args=(node,))
     spin_thread.start()
     node.start()

@@ -7,12 +7,11 @@
 
 PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_path)
     : Node("controller_publisher"), _axes(axes)
-    {
-
+{
     YAML::Node config = YAML::LoadFile(config_path);
-    _max_force = config["max_force"].as<float>();
+    _max_force   = config["max_force"].as<float>();
     _sending_time = config["sending_time"].as<float>();
-    _threshold = config["threshold"].as<float>();
+    _threshold   = config["threshold"].as<float>();
 
     for (const auto& item : config["keymap"]) {
         std::string axis = item.first.as<std::string>();
@@ -21,11 +20,10 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
     }
 
     _thruster_count = config["thruster"].as<int>();
-    for (int i = 1; i <= _thruster_count; ++i) {
-        auto pub = this->create_publisher<std_msgs::msg::Float64>(
-            "/bluerov2/cmd_thruster" + std::to_string(i), 10);
-        _thruster_publishers.push_back(pub);
-    }
+
+    // Create ONE publisher for all thrusters
+    _thruster_pub = this->create_publisher<std_msgs::msg::Float64MultiArray>(
+        "/bluerov2/cmd_thrusters", 10);
 
     _previous_thruster_values.resize(_thruster_count, 0.0f);
 
@@ -57,15 +55,23 @@ void PublisherNode::timer_callback() {
         }
     }
 
-    // Check if the change in any thruster value exceeds the threshold
-    for (size_t i = 0; i < _thruster_publishers.size(); ++i) {
+    // Check if any thruster value exceeds the threshold
+    bool publish_needed = false;
+    for (size_t i = 0; i < thruster_values.size(); ++i) {
         if (std::abs(thruster_values[i] - _previous_thruster_values[i]) > _threshold) {
-            // If the value exceeds the threshold, publish it
-            std_msgs::msg::Float64 msg;
-            msg.data = thruster_values[i] * _max_force;
-            _thruster_publishers[i]->publish(msg);
-            
-            _previous_thruster_values = thruster_values;
+            publish_needed = true;
+            break;
         }
+    }
+
+    if (publish_needed) {
+        std_msgs::msg::Float64MultiArray msg;
+        msg.data.resize(thruster_values.size());
+        for (size_t i = 0; i < thruster_values.size(); ++i) {
+            msg.data[i] = thruster_values[i] * _max_force;
+        }
+
+        _thruster_pub->publish(msg);
+        _previous_thruster_values = thruster_values;
     }
 }
