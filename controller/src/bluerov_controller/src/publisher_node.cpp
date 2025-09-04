@@ -9,7 +9,7 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
     : Node("controller_publisher"), _axes(axes)
 {
     YAML::Node config = YAML::LoadFile(config_path);
-    _max_force   = config["max_force"].as<float>();
+    _max_force   = config["max_force"].as<int>();
     _sending_time = config["sending_time"].as<float>();
     _threshold   = config["threshold"].as<float>();
 
@@ -22,10 +22,10 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
     _thruster_count = config["thruster"].as<int>();
 
     // Create ONE publisher for all thrusters
-    _thruster_pub = this->create_publisher<std_msgs::msg::Float64MultiArray>(
+    _thruster_pub = this->create_publisher<std_msgs::msg::Int32MultiArray>(
         "/bluerov2/cmd_thrusters", 10);
 
-    _previous_thruster_values.resize(_thruster_count, 0.0f);
+    _previous_thruster_values.resize(_thruster_count, 0);
 
     // Store timer to keep it alive
     _timer = this->create_wall_timer(std::chrono::duration<double>(_sending_time),
@@ -65,10 +65,10 @@ void PublisherNode::timer_callback() {
     }
 
     if (publish_needed) {
-        std_msgs::msg::Float64MultiArray msg;
+        std_msgs::msg::Int32MultiArray msg;
         msg.data.resize(thruster_values.size());
         for (size_t i = 0; i < thruster_values.size(); ++i) {
-            msg.data[i] = thruster_values[i] * _max_force;
+            msg.data[i] = std::lround(thruster_values[i]) * _max_force;
         }
 
         _thruster_pub->publish(msg);

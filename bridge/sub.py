@@ -16,7 +16,7 @@ class DesertSubscriber(Node):
 
         # Thruster array subscriber
         self.create_subscription(
-            Float64MultiArray,
+            Int32MultiArray,
             '/bluerov2/cmd_thrusters',
             self.thruster_callback,
             10

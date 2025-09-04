@@ -19,14 +19,14 @@ private:
 
     ControllerAxes& _axes;
     std::map<std::string, std::vector<float>> _keymap;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr _thruster_pub;
+    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr _thruster_pub;
 
-    float _max_force;
+    int _max_force;
     float _sending_time;
     float _threshold;
 
     int _thruster_count;
-    std::vector<float> _previous_thruster_values;
+    std::vector<int> _previous_thruster_values;
 
     rclcpp::TimerBase::SharedPtr _timer;
 };

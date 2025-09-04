@@ -14,9 +14,6 @@ class StandardPublisher(Node):
 
         self.thruster_count = thruster_count
 
-        # Publisher for the full array
-        self.thruster_pub = self.create_publisher(Float64MultiArray, '/bluerov2/cmd_thrusters', 10)
-
         # Publishers for individual thrusters
         self.thruster_split_pubs = [
             self.create_publisher(Float64, f'/bluerov2/cmd_thruster{i+1}', 10)
@@ -71,11 +68,6 @@ class StandardPublisher(Node):
                                 topic_id, values = line.split(':', 1)
                                 if int(topic_id) == 200:  # thruster array
                                     arr = [float(v) for v in values.split(',')]
-                                    msg = Float64MultiArray()
-                                    msg.data = arr
-                                    self.thruster_pub.publish(msg)
-
-                                    # Also publish split values
                                     for i, v in enumerate(arr):
                                         if i < len(self.thruster_split_pubs):
                                             m = Float64()
