@@ -3,7 +3,7 @@ import json
 import socket
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float64MultiArray
+from std_msgs.msg import Int32MultiArray
 
 class DesertSubscriber(Node):
     def __init__(self):

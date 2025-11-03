@@ -3,7 +3,6 @@ import socket
 import select
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float64, Float64MultiArray
 from mavros_msgs.msg import OverrideRCIn
 from threading import Thread
 from time import time
@@ -48,7 +47,7 @@ class StandardPublisher(Node):
                                     msg = OverrideRCIn()
                                     
                                     # Keep existing channels beyond the first 8 (if any)
-                                    existing_channels = [0]*16  # default all 16 channels to 0
+                                    existing_channels = [0]*18  # default all 16 channels to 0
                                     existing_channels[11] = 1633
                                     existing_channels[12] = 1100
 

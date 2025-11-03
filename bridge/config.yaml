@@ -1,7 +1,7 @@
-max_force: 10.0                # Maximum thrust per thruster [Newtons]
+max_force: 10                # Maximum thrust per thruster [Newtons]
 sending_time: 1.0              # Command sending interval [Seconds]
 thruster: 8                    # Total number of thrusters
-threshold: 0.1                 # Minimum change in force required to send a new command [Newtons]
+threshold: -1.1                 # Minimum change in force required to send a new command [Newtons]
 dead_zone: 0.2                 # Joystick dead zone threshold [0.0 - 1.0]
 
 pose: NONE                     # Ground truth pose topic (geometry_msgs/msg/Pose)
@@ -19,4 +19,4 @@ keymap:
   ax2: [ 0,  0,  0,  0,  1,  1,  1,  1]  # Right joystick vertical   -> Submerge/Emerge
   ax3: [ 0,  1, -1,  0,  0,  0,  0,  0]  # Right joystick horizontal -> Rotate (yaw)
   ax4: [ 0,  0,  0,  0,  0,  0,  0,  0]  # Left trigger              -> Unused
-  ax5: [ 0,  0,  0,  0,  0,  0,  0,  0]  # Right trigger             -> Unused
+  ax4: [ 0,  0,  0,  0,  0,  0,  0,  0]  # Right trigger             -> Unused

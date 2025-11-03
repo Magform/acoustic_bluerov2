@@ -2,8 +2,8 @@
 #define PUBLISHER_NODE_H
 
 #include <rclcpp/rclcpp.hpp>
-#include <std_msgs/msg/float64.hpp>
-#include <std_msgs/msg/float64_multi_array.hpp>
+#include <std_msgs/msg/int32.hpp>
+#include <std_msgs/msg/int32_multi_array.hpp>
 #include <atomic>
 #include <map>
 #include <vector>

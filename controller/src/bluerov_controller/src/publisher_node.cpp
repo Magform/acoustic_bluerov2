@@ -42,7 +42,7 @@ void PublisherNode::timer_callback() {
         _axes.rightTrigger.load()
     };
 
-    std::vector<float> thruster_values(_thruster_count, 0.0f);
+    std::vector<int> thruster_values(_thruster_count, 0);
 
     // Calculate thruster values based on axis values and keymap
     for (int axis_idx = 0; axis_idx < 6; ++axis_idx) {
@@ -50,7 +50,7 @@ void PublisherNode::timer_callback() {
         if (_keymap.find(axis_key) != _keymap.end()) {
             const auto& multipliers = _keymap[axis_key];
             for (size_t i = 0; i < multipliers.size(); ++i) {
-                thruster_values[i] += axis_values[axis_idx] * multipliers[i];
+                thruster_values[i] += std::lround(axis_values[axis_idx] * multipliers[i]);
             }
         }
     }
@@ -68,7 +68,7 @@ void PublisherNode::timer_callback() {
         std_msgs::msg::Int32MultiArray msg;
         msg.data.resize(thruster_values.size());
         for (size_t i = 0; i < thruster_values.size(); ++i) {
-            msg.data[i] = std::lround(thruster_values[i]) * _max_force;
+            msg.data[i] = thruster_values[i] * _max_force;
         }
 
         _thruster_pub->publish(msg);
