@@ -1,0 +1,22 @@
+carrier=40000
+modulation=janus
+interpflex=20
+janus_bw=6500
+janus_hd=1
+janus_mac=0
+flex_psk=bpsk
+intFEC=cv29
+outFEC=rs
+samplingfreq=192000
+interdsss=4
+gain=0.8
+
+
+Retrasmission Disabled
+
+
+CLOCK SICRONIZED, less than 50ms
+
+remote=$(ssh sum@192.168.100.7 date +%s%3N)
+local=$(date +%s%3N)
+echo "Diff: $((local-remote)) ms"
