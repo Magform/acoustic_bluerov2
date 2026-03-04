@@ -4,6 +4,8 @@
 #include <stdexcept>
 #include <chrono>
 #include <thread>
+#include <fstream>
+#define LOG_ENABLE
 
 ControllerReader::ControllerReader(ControllerAxes& axes, const std::string& config_path)
     : _axes(axes), _stop_thread(false), _reader_thread(), _joystick(nullptr)
@@ -60,17 +62,46 @@ float ControllerReader::apply_dead_zone(float value){
 }
 
 void ControllerReader::read_loop(){
+    #ifdef LOG_ENABLE
+    std::ofstream logFile("controller_log.csv");
+    logFile << "epoch,leftH,leftV,leftT,rightH,rightV,rightT\n";
+    #endif
+
     while (!_stop_thread) {
         SDL_JoystickUpdate();
-        
-        // Normalize axis values [-32768, 32767] -> [-1.0f, 1.0f]
-        _axes.leftHorizontal.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 0) / 32767.0f));
-        _axes.leftVertical.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 1) / 32767.0f));
-        _axes.leftTrigger.store(SDL_JoystickGetAxis(_joystick, 2) / 32767.0f);
-        _axes.rightHorizontal.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 3) / 32767.0f));
-        _axes.rightVertical.store(apply_dead_zone(SDL_JoystickGetAxis(_joystick, 4) / 32767.0f));
-        _axes.rightTrigger.store(SDL_JoystickGetAxis(_joystick, 5) / 32767.0f);
-        
+        float leftH = apply_dead_zone(SDL_JoystickGetAxis(_joystick, 0) / 32767.0f);
+        float leftV = apply_dead_zone(SDL_JoystickGetAxis(_joystick, 1) / 32767.0f);
+        float leftT = SDL_JoystickGetAxis(_joystick, 2) / 32767.0f;
+        float rightH = apply_dead_zone(SDL_JoystickGetAxis(_joystick, 3) / 32767.0f);
+        float rightV = apply_dead_zone(SDL_JoystickGetAxis(_joystick, 4) / 32767.0f);
+        float rightT = SDL_JoystickGetAxis(_joystick, 5) / 32767.0f;
+
+        _axes.leftHorizontal.store(leftH);
+        _axes.leftVertical.store(leftV);
+        _axes.leftTrigger.store(leftT);
+        _axes.rightHorizontal.store(rightH);
+        _axes.rightVertical.store(rightV);
+        _axes.rightTrigger.store(rightT);
+
+        #ifdef LOG_ENABLE
+        auto now = std::chrono::system_clock::now();
+        auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(
+                    now.time_since_epoch()
+                ).count();
+
+        logFile << ms << ","
+                << leftH << ","
+                << leftV << ","
+                << leftT << ","
+                << rightH << ","
+                << rightV << ","
+                << rightT << "\n";
+        #endif
+
         std::this_thread::sleep_for(std::chrono::milliseconds(50));
     }
+
+    #ifdef LOG_ENABLE
+    logFile.close();
+    #endif
 }
