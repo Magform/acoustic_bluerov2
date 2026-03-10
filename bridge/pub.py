@@ -19,6 +19,9 @@ class StandardPublisher(Node):
         # Service client
         self.arm_client = self.create_client(CommandBool, '/mavros/cmd/arming')
 
+        self.is_armed = False
+        self.arm_timer = self.create_timer(0.5, self.arm_timer_callback)
+
         # TCP socket
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -54,6 +57,10 @@ class StandardPublisher(Node):
                     self.conn = None
                     self.get_logger().info("Client disconnected.")
 
+    def arm_timer_callback(self):
+        if self.is_armed:
+            self.arm_vehicle(True)
+
     def handle_line(self, line):
         try:
             topic_id, values = line.split(':', 1)
@@ -88,8 +95,10 @@ class StandardPublisher(Node):
                     f"channels={channels}"
                 )
             elif topic_id == 301:
+                self.is_armed = True
                 self.arm_vehicle(True)
             elif topic_id == 302:
+                self.is_armed = False
                 self.arm_vehicle(False)      
         except Exception as e:
             self.get_logger().error(f"Error parsing line '{line}': {e}")
