@@ -1,0 +1,447 @@
+[INFO] [1773921288.500896795] [standard_publisher]: Client connected.
+[ERROR] [1773921306.543740315] [standard_publisher]: Arming service not available
+[INFO] [1773921306.547247041] [standard_publisher]: [ROS_TIME_NS=1773921306544451093] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921316.955182159] [standard_publisher]: Arming service not available
+[INFO] [1773921316.958973144] [standard_publisher]: [ROS_TIME_NS=1773921316955818771] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921326.565980837] [standard_publisher]: Arming service not available
+[INFO] [1773921326.569289488] [standard_publisher]: [ROS_TIME_NS=1773921326566491319] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921337.177467541] [standard_publisher]: Arming service not available
+[INFO] [1773921337.181074858] [standard_publisher]: [ROS_TIME_NS=1773921337178019652] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921346.688358150] [standard_publisher]: Arming service not available
+[INFO] [1773921346.692014930] [standard_publisher]: [ROS_TIME_NS=1773921346688959854] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921356.898468653] [standard_publisher]: Arming service not available
+[INFO] [1773921356.901883711] [standard_publisher]: [ROS_TIME_NS=1773921356899058839] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921366.710939793] [standard_publisher]: Arming service not available
+[INFO] [1773921366.714430646] [standard_publisher]: [ROS_TIME_NS=1773921366711471997] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921377.022256476] [standard_publisher]: Arming service not available
+[INFO] [1773921377.026012087] [standard_publisher]: [ROS_TIME_NS=1773921377023215142] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921386.632651545] [standard_publisher]: Arming service not available
+[INFO] [1773921386.636433527] [standard_publisher]: [ROS_TIME_NS=1773921386633229453] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921397.144779170] [standard_publisher]: Arming service not available
+[INFO] [1773921397.148267263] [standard_publisher]: [ROS_TIME_NS=1773921397145322226] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921406.754345107] [standard_publisher]: Arming service not available
+[INFO] [1773921406.757788607] [standard_publisher]: [ROS_TIME_NS=1773921406754906922] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921416.965130879] [standard_publisher]: Arming service not available
+[INFO] [1773921416.968499952] [standard_publisher]: [ROS_TIME_NS=1773921416965662378] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921426.577092370] [standard_publisher]: Arming service not available
+[INFO] [1773921426.580554554] [standard_publisher]: [ROS_TIME_NS=1773921426577609444] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921436.887401030] [standard_publisher]: Arming service not available
+[INFO] [1773921436.890974306] [standard_publisher]: [ROS_TIME_NS=1773921436888003418] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921446.599388926] [standard_publisher]: Arming service not available
+[INFO] [1773921446.603021202] [standard_publisher]: [ROS_TIME_NS=1773921446599959296] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921457.110054004] [standard_publisher]: Arming service not available
+[INFO] [1773921457.113713687] [standard_publisher]: [ROS_TIME_NS=1773921457110607597] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921466.721229276] [standard_publisher]: Arming service not available
+[INFO] [1773921466.724601607] [standard_publisher]: [ROS_TIME_NS=1773921466721789423] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921476.932458479] [standard_publisher]: Arming service not available
+[INFO] [1773921476.936550346] [standard_publisher]: [ROS_TIME_NS=1773921476933110275] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921486.744452313] [standard_publisher]: Arming service not available
+[INFO] [1773921486.747804477] [standard_publisher]: [ROS_TIME_NS=1773921486744994609] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921497.055593306] [standard_publisher]: Arming service not available
+[INFO] [1773921497.059659654] [standard_publisher]: [ROS_TIME_NS=1773921497056228991] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921506.666954728] [standard_publisher]: Arming service not available
+[INFO] [1773921506.670358965] [standard_publisher]: [ROS_TIME_NS=1773921506667476598] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921517.077766392] [standard_publisher]: Arming service not available
+[INFO] [1773921517.081154240] [standard_publisher]: [ROS_TIME_NS=1773921517078313040] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921526.688395185] [standard_publisher]: Arming service not available
+[INFO] [1773921526.692086254] [standard_publisher]: [ROS_TIME_NS=1773921526688994536] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921536.999588416] [standard_publisher]: Arming service not available
+[INFO] [1773921537.002992967] [standard_publisher]: [ROS_TIME_NS=1773921537000168916] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921546.611483947] [standard_publisher]: Arming service not available
+[INFO] [1773921546.615170960] [standard_publisher]: [ROS_TIME_NS=1773921546612073039] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921556.923283017] [standard_publisher]: Arming service not available
+[INFO] [1773921556.927133159] [standard_publisher]: [ROS_TIME_NS=1773921556923880849] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921566.633598191] [standard_publisher]: Arming service not available
+[INFO] [1773921566.636964223] [standard_publisher]: [ROS_TIME_NS=1773921566634151246] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921577.044452878] [standard_publisher]: Arming service not available
+[INFO] [1773921577.047932558] [standard_publisher]: [ROS_TIME_NS=1773921577045098173] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921586.655499914] [standard_publisher]: Arming service not available
+[INFO] [1773921586.658892593] [standard_publisher]: [ROS_TIME_NS=1773921586656043765] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921596.966458697] [standard_publisher]: Arming service not available
+[INFO] [1773921596.969865468] [standard_publisher]: [ROS_TIME_NS=1773921596967021436] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921606.778277268] [standard_publisher]: Arming service not available
+[INFO] [1773921606.782206538] [standard_publisher]: [ROS_TIME_NS=1773921606779195766] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921617.089135825] [standard_publisher]: Arming service not available
+[INFO] [1773921617.093055929] [standard_publisher]: [ROS_TIME_NS=1773921617089751176] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921626.500195906] [standard_publisher]: Arming service not available
+[INFO] [1773921626.503552658] [standard_publisher]: [ROS_TIME_NS=1773921626500765219] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921637.012504395] [standard_publisher]: Arming service not available
+[INFO] [1773921637.016056239] [standard_publisher]: [ROS_TIME_NS=1773921637013164375] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921646.723073964] [standard_publisher]: Arming service not available
+[INFO] [1773921646.726405475] [standard_publisher]: [ROS_TIME_NS=1773921646723591204] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921656.933828427] [standard_publisher]: Arming service not available
+[INFO] [1773921656.937218919] [standard_publisher]: [ROS_TIME_NS=1773921656934361389] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921666.644087291] [standard_publisher]: Arming service not available
+[INFO] [1773921666.647720727] [standard_publisher]: [ROS_TIME_NS=1773921666644632549] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921677.056069519] [standard_publisher]: Arming service not available
+[INFO] [1773921677.059447529] [standard_publisher]: [ROS_TIME_NS=1773921677056615869] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921686.666192036] [standard_publisher]: Arming service not available
+[INFO] [1773921686.669527861] [standard_publisher]: [ROS_TIME_NS=1773921686666739202] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921697.077851093] [standard_publisher]: Arming service not available
+[INFO] [1773921697.081195437] [standard_publisher]: [ROS_TIME_NS=1773921697078384240] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921706.689117675] [standard_publisher]: Arming service not available
+[INFO] [1773921706.692896165] [standard_publisher]: [ROS_TIME_NS=1773921706689651951] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921717.001464914] [standard_publisher]: Arming service not available
+[INFO] [1773921717.004865164] [standard_publisher]: [ROS_TIME_NS=1773921717002027005] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921726.712573915] [standard_publisher]: Arming service not available
+[INFO] [1773921726.716259794] [standard_publisher]: [ROS_TIME_NS=1773921726713162802] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921736.923802135] [standard_publisher]: Arming service not available
+[INFO] [1773921736.927150403] [standard_publisher]: [ROS_TIME_NS=1773921736924332893] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921746.534264518] [standard_publisher]: Arming service not available
+[INFO] [1773921746.537795693] [standard_publisher]: [ROS_TIME_NS=1773921746534845164] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921756.944847986] [standard_publisher]: Arming service not available
+[INFO] [1773921756.948210754] [standard_publisher]: [ROS_TIME_NS=1773921756945387891] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921766.756714844] [standard_publisher]: Arming service not available
+[INFO] [1773921766.760359944] [standard_publisher]: [ROS_TIME_NS=1773921766757268268] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921776.968086181] [standard_publisher]: Arming service not available
+[INFO] [1773921776.971785633] [standard_publisher]: [ROS_TIME_NS=1773921776968651994] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921786.578445487] [standard_publisher]: Arming service not available
+[INFO] [1773921786.581845347] [standard_publisher]: [ROS_TIME_NS=1773921786579007874] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921796.990449834] [standard_publisher]: Arming service not available
+[INFO] [1773921796.993867730] [standard_publisher]: [ROS_TIME_NS=1773921796991026295] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921806.600507958] [standard_publisher]: Arming service not available
+[INFO] [1773921806.603888392] [standard_publisher]: [ROS_TIME_NS=1773921806601064957] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921817.112064722] [standard_publisher]: Arming service not available
+[INFO] [1773921817.115434397] [standard_publisher]: [ROS_TIME_NS=1773921817112599628] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921826.723162641] [standard_publisher]: Arming service not available
+[INFO] [1773921826.726638926] [standard_publisher]: [ROS_TIME_NS=1773921826723718620] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921836.935440974] [standard_publisher]: Arming service not available
+[INFO] [1773921836.939132573] [standard_publisher]: [ROS_TIME_NS=1773921836936038620] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921846.646173423] [standard_publisher]: Arming service not available
+[INFO] [1773921846.649714577] [standard_publisher]: [ROS_TIME_NS=1773921846646735495] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921856.957260575] [standard_publisher]: Arming service not available
+[INFO] [1773921856.960680749] [standard_publisher]: [ROS_TIME_NS=1773921856957874184] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921866.569112784] [standard_publisher]: Arming service not available
+[INFO] [1773921866.572793993] [standard_publisher]: [ROS_TIME_NS=1773921866569669838] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921876.980751657] [standard_publisher]: Arming service not available
+[INFO] [1773921876.984184201] [standard_publisher]: [ROS_TIME_NS=1773921876981283618] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921886.691424979] [standard_publisher]: Arming service not available
+[INFO] [1773921886.694805133] [standard_publisher]: [ROS_TIME_NS=1773921886691993588] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921896.902084050] [standard_publisher]: Arming service not available
+[INFO] [1773921896.905463686] [standard_publisher]: [ROS_TIME_NS=1773921896902622807] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921906.713178925] [standard_publisher]: Arming service not available
+[INFO] [1773921906.716545450] [standard_publisher]: [ROS_TIME_NS=1773921906713745664] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921917.025227864] [standard_publisher]: Arming service not available
+[INFO] [1773921917.028631333] [standard_publisher]: [ROS_TIME_NS=1773921917025804806] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921926.635918487] [standard_publisher]: Arming service not available
+[INFO] [1773921926.639418288] [standard_publisher]: [ROS_TIME_NS=1773921926636479836] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921937.047481431] [standard_publisher]: Arming service not available
+[INFO] [1773921937.051379435] [standard_publisher]: [ROS_TIME_NS=1773921937048223206] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921946.757877864] [standard_publisher]: Arming service not available
+[INFO] [1773921946.761443609] [standard_publisher]: [ROS_TIME_NS=1773921946758399528] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921957.069342567] [standard_publisher]: Arming service not available
+[INFO] [1773921957.072909035] [standard_publisher]: [ROS_TIME_NS=1773921957070080953] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921966.580933066] [standard_publisher]: Arming service not available
+[INFO] [1773921966.584289961] [standard_publisher]: [ROS_TIME_NS=1773921966581467472] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921976.892571065] [standard_publisher]: Arming service not available
+[INFO] [1773921976.896272050] [standard_publisher]: [ROS_TIME_NS=1773921976893187877] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921986.602934764] [standard_publisher]: Arming service not available
+[INFO] [1773921986.606580453] [standard_publisher]: [ROS_TIME_NS=1773921986603492502] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773921997.013387281] [standard_publisher]: Arming service not available
+[INFO] [1773921997.016798805] [standard_publisher]: [ROS_TIME_NS=1773921997013965742] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922006.723928462] [standard_publisher]: Arming service not available
+[INFO] [1773922006.727533595] [standard_publisher]: [ROS_TIME_NS=1773922006724474756] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922016.936232725] [standard_publisher]: Arming service not available
+[INFO] [1773922016.939928821] [standard_publisher]: [ROS_TIME_NS=1773922016936862945] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922026.647453362] [standard_publisher]: Arming service not available
+[INFO] [1773922026.650852293] [standard_publisher]: [ROS_TIME_NS=1773922026648023230] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922036.958757788] [standard_publisher]: Arming service not available
+[INFO] [1773922036.962415181] [standard_publisher]: [ROS_TIME_NS=1773922036959329508] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922046.568315678] [standard_publisher]: Arming service not available
+[INFO] [1773922046.571725886] [standard_publisher]: [ROS_TIME_NS=1773922046568877064] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922056.981468509] [standard_publisher]: Arming service not available
+[INFO] [1773922056.985150272] [standard_publisher]: [ROS_TIME_NS=1773922056982052896] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922066.791436460] [standard_publisher]: Arming service not available
+[INFO] [1773922066.794811631] [standard_publisher]: [ROS_TIME_NS=1773922066791991032] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922077.102590356] [standard_publisher]: Arming service not available
+[INFO] [1773922077.106275785] [standard_publisher]: [ROS_TIME_NS=1773922077103187631] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922086.513133079] [standard_publisher]: Arming service not available
+[INFO] [1773922086.516486232] [standard_publisher]: [ROS_TIME_NS=1773922086513647392] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922096.924794023] [standard_publisher]: Arming service not available
+[INFO] [1773922096.928161508] [standard_publisher]: [ROS_TIME_NS=1773922096925317280] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922106.534965256] [standard_publisher]: Arming service not available
+[INFO] [1773922106.538636259] [standard_publisher]: [ROS_TIME_NS=1773922106535502661] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922117.047140378] [standard_publisher]: Arming service not available
+[INFO] [1773922117.050328902] [standard_publisher]: [ROS_TIME_NS=1773922117047740505] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922126.658072999] [standard_publisher]: Arming service not available
+[INFO] [1773922126.661438465] [standard_publisher]: [ROS_TIME_NS=1773922126658598515] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922136.969977147] [standard_publisher]: Arming service not available
+[INFO] [1773922136.973591242] [standard_publisher]: [ROS_TIME_NS=1773922136970565848] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922146.680059690] [standard_publisher]: Arming service not available
+[INFO] [1773922146.683400897] [standard_publisher]: [ROS_TIME_NS=1773922146680577243] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922156.991445061] [standard_publisher]: Arming service not available
+[INFO] [1773922156.995209396] [standard_publisher]: [ROS_TIME_NS=1773922156992403649] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922166.601890402] [standard_publisher]: Arming service not available
+[INFO] [1773922166.605272368] [standard_publisher]: [ROS_TIME_NS=1773922166602406159] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922177.013756009] [standard_publisher]: Arming service not available
+[INFO] [1773922177.017415307] [standard_publisher]: [ROS_TIME_NS=1773922177014335062] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922186.725337050] [standard_publisher]: Arming service not available
+[INFO] [1773922186.728866886] [standard_publisher]: [ROS_TIME_NS=1773922186725892584] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922197.037130160] [standard_publisher]: Arming service not available
+[INFO] [1773922197.040464516] [standard_publisher]: [ROS_TIME_NS=1773922197037653714] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922206.747589412] [standard_publisher]: Arming service not available
+[INFO] [1773922206.751130081] [standard_publisher]: [ROS_TIME_NS=1773922206748200613] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922216.959365575] [standard_publisher]: Arming service not available
+[INFO] [1773922216.963566000] [standard_publisher]: [ROS_TIME_NS=1773922216959988109] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922226.568660945] [standard_publisher]: Arming service not available
+[INFO] [1773922226.572034040] [standard_publisher]: [ROS_TIME_NS=1773922226569191794] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922236.981101653] [standard_publisher]: Arming service not available
+[INFO] [1773922236.984728951] [standard_publisher]: [ROS_TIME_NS=1773922236981742576] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922246.690872337] [standard_publisher]: Arming service not available
+[INFO] [1773922246.694194822] [standard_publisher]: [ROS_TIME_NS=1773922246691387427] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922257.001800310] [standard_publisher]: Arming service not available
+[INFO] [1773922257.005268572] [standard_publisher]: [ROS_TIME_NS=1773922257002367641] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922266.612603697] [standard_publisher]: Arming service not available
+[INFO] [1773922266.616212662] [standard_publisher]: [ROS_TIME_NS=1773922266613189361] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922276.925164349] [standard_publisher]: Arming service not available
+[INFO] [1773922276.928526056] [standard_publisher]: [ROS_TIME_NS=1773922276925722847] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922286.634755492] [standard_publisher]: Arming service not available
+[INFO] [1773922286.638386642] [standard_publisher]: [ROS_TIME_NS=1773922286635312971] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922297.047206537] [standard_publisher]: Arming service not available
+[INFO] [1773922297.050598650] [standard_publisher]: [ROS_TIME_NS=1773922297047799423] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922306.757145890] [standard_publisher]: Arming service not available
+[INFO] [1773922306.760506022] [standard_publisher]: [ROS_TIME_NS=1773922306757658517] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922316.970447340] [standard_publisher]: Arming service not available
+[INFO] [1773922316.974147470] [standard_publisher]: [ROS_TIME_NS=1773922316971049152] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922326.680622496] [standard_publisher]: Arming service not available
+[INFO] [1773922326.683997054] [standard_publisher]: [ROS_TIME_NS=1773922326681187864] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922336.992131950] [standard_publisher]: Arming service not available
+[INFO] [1773922336.995485397] [standard_publisher]: [ROS_TIME_NS=1773922336992668003] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922346.601334874] [standard_publisher]: Arming service not available
+[INFO] [1773922346.605007042] [standard_publisher]: [ROS_TIME_NS=1773922346601935946] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922356.913646147] [standard_publisher]: Arming service not available
+[INFO] [1773922356.917049649] [standard_publisher]: [ROS_TIME_NS=1773922356914198422] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922366.625059908] [standard_publisher]: Arming service not available
+[INFO] [1773922366.628392447] [standard_publisher]: [ROS_TIME_NS=1773922366625585090] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922376.936068428] [standard_publisher]: Arming service not available
+[INFO] [1773922376.939346893] [standard_publisher]: [ROS_TIME_NS=1773922376936633129] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922386.546501305] [standard_publisher]: Arming service not available
+[INFO] [1773922386.549985010] [standard_publisher]: [ROS_TIME_NS=1773922386547053543] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922396.958004772] [standard_publisher]: Arming service not available
+[INFO] [1773922396.961355885] [standard_publisher]: [ROS_TIME_NS=1773922396958530158] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922406.668496568] [standard_publisher]: Arming service not available
+[INFO] [1773922406.671938236] [standard_publisher]: [ROS_TIME_NS=1773922406669051825] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922417.181150501] [standard_publisher]: Arming service not available
+[INFO] [1773922417.184836464] [standard_publisher]: [ROS_TIME_NS=1773922417181762906] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922426.691717915] [standard_publisher]: Arming service not available
+[INFO] [1773922426.695731006] [standard_publisher]: [ROS_TIME_NS=1773922426692300042] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922437.102527426] [standard_publisher]: Arming service not available
+[INFO] [1773922437.106343630] [standard_publisher]: [ROS_TIME_NS=1773922437103210367] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922446.713787334] [standard_publisher]: Arming service not available
+[INFO] [1773922446.717203391] [standard_publisher]: [ROS_TIME_NS=1773922446714333183] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922457.025236985] [standard_publisher]: Arming service not available
+[INFO] [1773922457.028446525] [standard_publisher]: [ROS_TIME_NS=1773922457025822686] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922466.635282163] [standard_publisher]: Arming service not available
+[INFO] [1773922466.638642294] [standard_publisher]: [ROS_TIME_NS=1773922466635843049] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922476.946967322] [standard_publisher]: Arming service not available
+[INFO] [1773922476.950396305] [standard_publisher]: [ROS_TIME_NS=1773922476947494671] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922486.658508965] [standard_publisher]: Arming service not available
+[INFO] [1773922486.661946614] [standard_publisher]: [ROS_TIME_NS=1773922486659092073] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922496.868731602] [standard_publisher]: Arming service not available
+[INFO] [1773922496.872012456] [standard_publisher]: [ROS_TIME_NS=1773922496869269006] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922506.580388100] [standard_publisher]: Arming service not available
+[INFO] [1773922506.583783990] [standard_publisher]: [ROS_TIME_NS=1773922506580932245] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922516.892201864] [standard_publisher]: Arming service not available
+[INFO] [1773922516.895622198] [standard_publisher]: [ROS_TIME_NS=1773922516892780231] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922526.602192457] [standard_publisher]: Arming service not available
+[INFO] [1773922526.605535588] [standard_publisher]: [ROS_TIME_NS=1773922526602739251] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922537.014857355] [standard_publisher]: Arming service not available
+[INFO] [1773922537.018324986] [standard_publisher]: [ROS_TIME_NS=1773922537015395779] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922546.724379454] [standard_publisher]: Arming service not available
+[INFO] [1773922546.727759140] [standard_publisher]: [ROS_TIME_NS=1773922546724943414] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922556.935806878] [standard_publisher]: Arming service not available
+[INFO] [1773922556.939163379] [standard_publisher]: [ROS_TIME_NS=1773922556936345819] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922566.648099809] [standard_publisher]: Arming service not available
+[INFO] [1773922566.651750753] [standard_publisher]: [ROS_TIME_NS=1773922566648657362] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922576.958553154] [standard_publisher]: Arming service not available
+[INFO] [1773922576.961939100] [standard_publisher]: [ROS_TIME_NS=1773922576959126373] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922586.669420688] [standard_publisher]: Arming service not available
+[INFO] [1773922586.672843782] [standard_publisher]: [ROS_TIME_NS=1773922586669993723] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922597.080438339] [standard_publisher]: Arming service not available
+[INFO] [1773922597.084128375] [standard_publisher]: [ROS_TIME_NS=1773922597081034540] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922606.691710827] [standard_publisher]: Arming service not available
+[INFO] [1773922606.695329716] [standard_publisher]: [ROS_TIME_NS=1773922606692260325] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922617.003497903] [standard_publisher]: Arming service not available
+[INFO] [1773922617.006897478] [standard_publisher]: [ROS_TIME_NS=1773922617004042122] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922626.614519619] [standard_publisher]: Arming service not available
+[INFO] [1773922626.617906713] [standard_publisher]: [ROS_TIME_NS=1773922626615073857] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922636.926062338] [standard_publisher]: Arming service not available
+[INFO] [1773922636.929425376] [standard_publisher]: [ROS_TIME_NS=1773922636926601927] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922646.536015979] [standard_publisher]: Arming service not available
+[INFO] [1773922646.539771866] [standard_publisher]: [ROS_TIME_NS=1773922646536570383] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922656.947820710] [standard_publisher]: Arming service not available
+[INFO] [1773922656.951309081] [standard_publisher]: [ROS_TIME_NS=1773922656948364485] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922666.658038360] [standard_publisher]: Arming service not available
+[INFO] [1773922666.661410250] [standard_publisher]: [ROS_TIME_NS=1773922666658567246] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922676.969662217] [standard_publisher]: Arming service not available
+[INFO] [1773922676.973388735] [standard_publisher]: [ROS_TIME_NS=1773922676970267325] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922686.580327935] [standard_publisher]: Arming service not available
+[INFO] [1773922686.583717769] [standard_publisher]: [ROS_TIME_NS=1773922686580902043] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922696.993534198] [standard_publisher]: Arming service not available
+[INFO] [1773922696.997174364] [standard_publisher]: [ROS_TIME_NS=1773922696994154954] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922706.703173128] [standard_publisher]: Arming service not available
+[INFO] [1773922706.706537665] [standard_publisher]: [ROS_TIME_NS=1773922706703719180] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922717.015674779] [standard_publisher]: Arming service not available
+[INFO] [1773922717.019055576] [standard_publisher]: [ROS_TIME_NS=1773922717016221406] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922726.725548189] [standard_publisher]: Arming service not available
+[INFO] [1773922726.728844949] [standard_publisher]: [ROS_TIME_NS=1773922726726117741] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922737.037132800] [standard_publisher]: Arming service not available
+[INFO] [1773922737.040813077] [standard_publisher]: [ROS_TIME_NS=1773922737037732945] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922746.748208414] [standard_publisher]: Arming service not available
+[INFO] [1773922746.751544674] [standard_publisher]: [ROS_TIME_NS=1773922746748769226] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922756.860006147] [standard_publisher]: Arming service not available
+[INFO] [1773922756.863645072] [standard_publisher]: [ROS_TIME_NS=1773922756860557440] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922766.669923061] [standard_publisher]: Arming service not available
+[INFO] [1773922766.673299451] [standard_publisher]: [ROS_TIME_NS=1773922766670436410] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922776.982369916] [standard_publisher]: Arming service not available
+[INFO] [1773922776.985905342] [standard_publisher]: [ROS_TIME_NS=1773922776983072709] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922786.693243859] [standard_publisher]: Arming service not available
+[INFO] [1773922786.696598100] [standard_publisher]: [ROS_TIME_NS=1773922786693829393] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922797.004361585] [standard_publisher]: Arming service not available
+[INFO] [1773922797.007804492] [standard_publisher]: [ROS_TIME_NS=1773922797004920804] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922806.614285705] [standard_publisher]: Arming service not available
+[INFO] [1773922806.617636335] [standard_publisher]: [ROS_TIME_NS=1773922806614840739] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922817.026284241] [standard_publisher]: Arming service not available
+[INFO] [1773922817.030012795] [standard_publisher]: [ROS_TIME_NS=1773922817026876867] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922826.637329497] [standard_publisher]: Arming service not available
+[INFO] [1773922826.640929959] [standard_publisher]: [ROS_TIME_NS=1773922826637891549] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922837.048743355] [standard_publisher]: Arming service not available
+[INFO] [1773922837.052825332] [standard_publisher]: [ROS_TIME_NS=1773922837049352703] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922846.759157647] [standard_publisher]: Arming service not available
+[INFO] [1773922846.762502537] [standard_publisher]: [ROS_TIME_NS=1773922846759720237] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922856.970209912] [standard_publisher]: Arming service not available
+[INFO] [1773922856.974127428] [standard_publisher]: [ROS_TIME_NS=1773922856970847075] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922866.681433574] [standard_publisher]: Arming service not available
+[INFO] [1773922866.685022351] [standard_publisher]: [ROS_TIME_NS=1773922866682008256] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922876.892771985] [standard_publisher]: Arming service not available
+[INFO] [1773922876.896347392] [standard_publisher]: [ROS_TIME_NS=1773922876893309630] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922886.603658621] [standard_publisher]: Arming service not available
+[INFO] [1773922886.607044399] [standard_publisher]: [ROS_TIME_NS=1773922886604202877] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922897.015673501] [standard_publisher]: Arming service not available
+[INFO] [1773922897.019076890] [standard_publisher]: [ROS_TIME_NS=1773922897016247535] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922906.625094978] [standard_publisher]: Arming service not available
+[INFO] [1773922906.628576978] [standard_publisher]: [ROS_TIME_NS=1773922906625641549] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922916.936320229] [standard_publisher]: Arming service not available
+[INFO] [1773922916.939820469] [standard_publisher]: [ROS_TIME_NS=1773922916936961596] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922926.647977371] [standard_publisher]: Arming service not available
+[INFO] [1773922926.651352538] [standard_publisher]: [ROS_TIME_NS=1773922926648496849] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922936.958585267] [standard_publisher]: Arming service not available
+[INFO] [1773922936.962245821] [standard_publisher]: [ROS_TIME_NS=1773922936959178615] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922946.569366832] [standard_publisher]: Arming service not available
+[INFO] [1773922946.572992572] [standard_publisher]: [ROS_TIME_NS=1773922946569912274] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922957.081449329] [standard_publisher]: Arming service not available
+[INFO] [1773922957.084877607] [standard_publisher]: [ROS_TIME_NS=1773922957082026474] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922966.692676845] [standard_publisher]: Arming service not available
+[INFO] [1773922966.696172825] [standard_publisher]: [ROS_TIME_NS=1773922966693226231] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922976.903860304] [standard_publisher]: Arming service not available
+[INFO] [1773922976.907245193] [standard_publisher]: [ROS_TIME_NS=1773922976904415357] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922986.715124365] [standard_publisher]: Arming service not available
+[INFO] [1773922986.718827123] [standard_publisher]: [ROS_TIME_NS=1773922986715665270] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773922997.026061786] [standard_publisher]: Arming service not available
+[INFO] [1773922997.029538581] [standard_publisher]: [ROS_TIME_NS=1773922997026620486] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923006.636515203] [standard_publisher]: Arming service not available
+[INFO] [1773923006.639901722] [standard_publisher]: [ROS_TIME_NS=1773923006637049515] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923016.847981422] [standard_publisher]: Arming service not available
+[INFO] [1773923016.851331533] [standard_publisher]: [ROS_TIME_NS=1773923016848506956] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923026.659278256] [standard_publisher]: Arming service not available
+[INFO] [1773923026.662653700] [standard_publisher]: [ROS_TIME_NS=1773923026659835567] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923036.969910573] [standard_publisher]: Arming service not available
+[INFO] [1773923036.973594627] [standard_publisher]: [ROS_TIME_NS=1773923036970480718] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923046.680820240] [standard_publisher]: Arming service not available
+[INFO] [1773923046.684198832] [standard_publisher]: [ROS_TIME_NS=1773923046681384366] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923056.892928138] [standard_publisher]: Arming service not available
+[INFO] [1773923056.896415433] [standard_publisher]: [ROS_TIME_NS=1773923056893461209] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923066.602937113] [standard_publisher]: Arming service not available
+[INFO] [1773923066.606590593] [standard_publisher]: [ROS_TIME_NS=1773923066603488906] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923077.015742499] [standard_publisher]: Arming service not available
+[INFO] [1773923077.019109870] [standard_publisher]: [ROS_TIME_NS=1773923077016276274] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923086.726207759] [standard_publisher]: Arming service not available
+[INFO] [1773923086.729393686] [standard_publisher]: [ROS_TIME_NS=1773923086726778589] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923097.037457917] [standard_publisher]: Arming service not available
+[INFO] [1773923097.040857750] [standard_publisher]: [ROS_TIME_NS=1773923097038018284] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923106.648457963] [standard_publisher]: Arming service not available
+[INFO] [1773923106.652146442] [standard_publisher]: [ROS_TIME_NS=1773923106649156459] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923117.060488721] [standard_publisher]: Arming service not available
+[INFO] [1773923117.063911442] [standard_publisher]: [ROS_TIME_NS=1773923117061098088] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923126.669994348] [standard_publisher]: Arming service not available
+[INFO] [1773923126.673424847] [standard_publisher]: [ROS_TIME_NS=1773923126670534845] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923137.082492801] [standard_publisher]: Arming service not available
+[INFO] [1773923137.085895152] [standard_publisher]: [ROS_TIME_NS=1773923137083069279] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923146.692795239] [standard_publisher]: Arming service not available
+[INFO] [1773923146.696410756] [standard_publisher]: [ROS_TIME_NS=1773923146693339773] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923157.004142585] [standard_publisher]: Arming service not available
+[INFO] [1773923157.007659972] [standard_publisher]: [ROS_TIME_NS=1773923157004682711] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923166.515675947] [standard_publisher]: Arming service not available
+[INFO] [1773923166.519039058] [standard_publisher]: [ROS_TIME_NS=1773923166516223203] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923176.926124780] [standard_publisher]: Arming service not available
+[INFO] [1773923176.929711464] [standard_publisher]: [ROS_TIME_NS=1773923176926649592] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923186.637618167] [standard_publisher]: Arming service not available
+[INFO] [1773923186.641132018] [standard_publisher]: [ROS_TIME_NS=1773923186638155220] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923197.048958386] [standard_publisher]: Arming service not available
+[INFO] [1773923197.052427163] [standard_publisher]: [ROS_TIME_NS=1773923197049533679] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923206.660656024] [standard_publisher]: Arming service not available
+[INFO] [1773923206.664288337] [standard_publisher]: [ROS_TIME_NS=1773923206661221854] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923216.970468073] [standard_publisher]: Arming service not available
+[INFO] [1773923216.974148479] [standard_publisher]: [ROS_TIME_NS=1773923216971057237] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923226.681348744] [standard_publisher]: Arming service not available
+[INFO] [1773923226.684845539] [standard_publisher]: [ROS_TIME_NS=1773923226681910796] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923237.092530847] [standard_publisher]: Arming service not available
+[INFO] [1773923237.096085198] [standard_publisher]: [ROS_TIME_NS=1773923237093117696] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923246.603476089] [standard_publisher]: Arming service not available
+[INFO] [1773923246.606860817] [standard_publisher]: [ROS_TIME_NS=1773923246604036939] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923257.215980780] [standard_publisher]: Arming service not available
+[INFO] [1773923257.219342268] [standard_publisher]: [ROS_TIME_NS=1773923257216505649] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923266.626521842] [standard_publisher]: Arming service not available
+[INFO] [1773923266.630019347] [standard_publisher]: [ROS_TIME_NS=1773923266627076728] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923276.937893877] [standard_publisher]: Arming service not available
+[INFO] [1773923276.941406641] [standard_publisher]: [ROS_TIME_NS=1773923276938418542] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923286.548899955] [standard_publisher]: Arming service not available
+[INFO] [1773923286.552322924] [standard_publisher]: [ROS_TIME_NS=1773923286549433361] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923296.961078041] [standard_publisher]: Arming service not available
+[INFO] [1773923296.964590860] [standard_publisher]: [ROS_TIME_NS=1773923296961634983] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923306.571495637] [standard_publisher]: Arming service not available
+[INFO] [1773923306.574882976] [standard_publisher]: [ROS_TIME_NS=1773923306572041487] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923316.882317176] [standard_publisher]: Arming service not available
+[INFO] [1773923316.885718959] [standard_publisher]: [ROS_TIME_NS=1773923316882891266] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923326.693499718] [standard_publisher]: Arming service not available
+[INFO] [1773923326.696904760] [standard_publisher]: [ROS_TIME_NS=1773923326694047586] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923337.004476280] [standard_publisher]: Arming service not available
+[INFO] [1773923337.007911322] [standard_publisher]: [ROS_TIME_NS=1773923337005066667] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923346.716418105] [standard_publisher]: Arming service not available
+[INFO] [1773923346.719943628] [standard_publisher]: [ROS_TIME_NS=1773923346716964177] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923356.926780314] [standard_publisher]: Arming service not available
+[INFO] [1773923356.930227188] [standard_publisher]: [ROS_TIME_NS=1773923356927320423] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923366.638336203] [standard_publisher]: Arming service not available
+[INFO] [1773923366.641729744] [standard_publisher]: [ROS_TIME_NS=1773923366638921478] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923377.049629515] [standard_publisher]: Arming service not available
+[INFO] [1773923377.053357093] [standard_publisher]: [ROS_TIME_NS=1773923377050231587] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923386.659601498] [standard_publisher]: Arming service not available
+[INFO] [1773923386.663330908] [standard_publisher]: [ROS_TIME_NS=1773923386660245532] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923396.870502943] [standard_publisher]: Arming service not available
+[INFO] [1773923396.873987873] [standard_publisher]: [ROS_TIME_NS=1773923396871150848] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923406.583182105] [standard_publisher]: Arming service not available
+[INFO] [1773923406.586840386] [standard_publisher]: [ROS_TIME_NS=1773923406583762084] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923416.993754460] [standard_publisher]: Arming service not available
+[INFO] [1773923416.997094853] [standard_publisher]: [ROS_TIME_NS=1773923416994282661] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923426.705403910] [standard_publisher]: Arming service not available
+[INFO] [1773923426.708815859] [standard_publisher]: [ROS_TIME_NS=1773923426705998000] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923436.916062789] [standard_publisher]: Arming service not available
+[INFO] [1773923436.920138382] [standard_publisher]: [ROS_TIME_NS=1773923436916681064] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923446.726117309] [standard_publisher]: Arming service not available
+[INFO] [1773923446.729442888] [standard_publisher]: [ROS_TIME_NS=1773923446726624067] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923456.937578995] [standard_publisher]: Arming service not available
+[INFO] [1773923456.940989684] [standard_publisher]: [ROS_TIME_NS=1773923456938135752] Published RC overridetopic=200 values=-50,0,0,0,0,0 channels=[1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923466.547451188] [standard_publisher]: Arming service not available
+[INFO] [1773923466.551139005] [standard_publisher]: [ROS_TIME_NS=1773923466547998482] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923476.960068178] [standard_publisher]: Arming service not available
+[INFO] [1773923476.963517941] [standard_publisher]: [ROS_TIME_NS=1773923476960596713] Published RC overridetopic=200 values=0,50,0,0,0,0 channels=[1500, 1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923486.771180370] [standard_publisher]: Arming service not available
+[INFO] [1773923486.774501355] [standard_publisher]: [ROS_TIME_NS=1773923486771723015] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923497.082678344] [standard_publisher]: Arming service not available
+[INFO] [1773923497.086198921] [standard_publisher]: [ROS_TIME_NS=1773923497083226249] Published RC overridetopic=200 values=50,0,0,0,0,0 channels=[1550, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923506.693460685] [standard_publisher]: Arming service not available
+[INFO] [1773923506.696974336] [standard_publisher]: [ROS_TIME_NS=1773923506694019256] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923516.904486913] [standard_publisher]: Arming service not available
+[INFO] [1773923516.907864157] [standard_publisher]: [ROS_TIME_NS=1773923516905037263] Published RC overridetopic=200 values=0,-50,0,0,0,0 channels=[1500, 1450, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]
+[ERROR] [1773923526.616385572] [standard_publisher]: Arming service not available
+[INFO] [1773923526.619781761] [standard_publisher]: [ROS_TIME_NS=1773923526616927903] Published RC overridetopic=200 values=0,0,0,0,0,0 channels=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 0, 0, 1633, 1100, 0, 0, 0, 0, 0]

@@ -1,7 +1,7 @@
-carrier=40000
+carrier=32000
 modulation=janus
-interpflex=20
-janus_bw=6500
+interpflex=80
+janus_bw=10000
 janus_hd=1
 janus_mac=0
 flex_psk=bpsk
@@ -9,7 +9,7 @@ intFEC=cv29
 outFEC=rs
 samplingfreq=192000
 interdsss=4
-gain=0.8
+gain=0.4
 
 
 Retrasmission Disabled
