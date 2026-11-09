@@ -3,8 +3,9 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/float64.hpp>
-#include <std_msgs/msg/float64_multi_array.hpp>
+#include <std_msgs/msg/int32_multi_array.hpp>
 #include <atomic>
+#include <chrono>
 #include <map>
 #include <vector>
 #include <string>
@@ -21,12 +22,14 @@ private:
     std::map<std::string, std::vector<float>> _keymap;
     rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr _thruster_pub;
 
-    int _max_force;
+    float _max_force;
     float _sending_time;
     float _threshold;
+    float _resend_time;
 
     int _thruster_count;
-    std::vector<int> _previous_thruster_values;
+    std::vector<float> _previous_thruster_values;
+    std::chrono::steady_clock::time_point _last_sent_time;
 
     rclcpp::TimerBase::SharedPtr _timer;
 };

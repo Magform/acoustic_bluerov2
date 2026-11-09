@@ -4,14 +4,16 @@
 #include <iostream>
 #include <chrono>
 #include <cmath>
+#include <algorithm>
 
 PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_path)
     : Node("controller_publisher"), _axes(axes)
 {
     YAML::Node config = YAML::LoadFile(config_path);
-    _max_force   = config["max_force"].as<int>();
+    _max_force   = config["max_force"].as<float>();
     _sending_time = config["sending_time"].as<float>();
     _threshold   = config["threshold"].as<float>();
+    _resend_time = config["resend_time"] ? config["resend_time"].as<float>() : 0.0f;
 
     for (const auto& item : config["keymap"]) {
         std::string axis = item.first.as<std::string>();
@@ -25,7 +27,8 @@ PublisherNode::PublisherNode(ControllerAxes& axes, const std::string& config_pat
     _thruster_pub = this->create_publisher<std_msgs::msg::Int32MultiArray>(
         "/bluerov2/cmd_thrusters", 10);
 
-    _previous_thruster_values.resize(_thruster_count, 0);
+    _previous_thruster_values.resize(_thruster_count, 0.0f);
+    _last_sent_time = std::chrono::steady_clock::now();
 
     // Store timer to keep it alive
     _timer = this->create_wall_timer(std::chrono::duration<double>(_sending_time),
@@ -64,14 +67,22 @@ void PublisherNode::timer_callback() {
         }
     }
 
+    // Resend the last command periodically, so a lost packet doesn't leave the ROV stuck
+    auto now = std::chrono::steady_clock::now();
+    if (_resend_time > 0.0f &&
+        std::chrono::duration<float>(now - _last_sent_time).count() >= _resend_time) {
+        publish_needed = true;
+    }
+
     if (publish_needed) {
         std_msgs::msg::Int32MultiArray msg;
         msg.data.resize(thruster_values.size());
         for (size_t i = 0; i < thruster_values.size(); ++i) {
-            msg.data[i] = std::lround(thruster_values[i]) * _max_force;
+            msg.data[i] = std::lround(std::clamp(thruster_values[i], -1.0f, 1.0f) * _max_force);
         }
 
         _thruster_pub->publish(msg);
         _previous_thruster_values = thruster_values;
+        _last_sent_time = now;
     }
 }

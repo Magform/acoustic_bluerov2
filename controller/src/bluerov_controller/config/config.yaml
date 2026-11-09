@@ -2,6 +2,8 @@ max_force: 10.0                # Maximum thrust per thruster [Newtons]
 sending_time: 1.0              # Command sending interval [Seconds]
 thruster: 6                    # Total number of thrusters
 threshold: 0.1                 # Minimum change in force required to send a new command [Newtons]
+resend_time: 5.0               # Resend the last command after this long without changes [Seconds], 0 = off
+failsafe_timeout: 15.0         # pub.py stops all thrusters if no command arrives for this long [Seconds], 0 = off
 dead_zone: 0.2                 # Joystick dead zone threshold [0.0 - 1.0]
 
 pose: /bluerov2/pose_gt        # Ground truth pose topic (geometry_msgs/msg/Pose)
