@@ -7,14 +7,14 @@ services:
     image: simulator_desert-bluerov_img
     stdin_open: true
     tty: true
-    privileged: true # required for /dev/input (keyboard) access
+    privileged: true # required for /dev/input (joystick) access
     environment:
       DISPLAY: "${DISPLAY}"
       QT_X11_NO_MITSHM: "1"
       QT_QPA_PLATFORM: "xcb"
-      NVIDIA_VISIBLE_DEVICES: all
-      NVIDIA_DRIVER_CAPABILITIES: all
-
+    devices:
+      - /dev/dri:/dev/dri # Intel GPU: hardware OpenGL instead of CPU rendering
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /dev/input:/dev/input:rw
+      - ./src:/root/ros2_ws/src/acoustic_bluerov2
