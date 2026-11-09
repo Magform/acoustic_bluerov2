@@ -12,10 +12,10 @@ xbox --> :5000 --socat--> surface modem ~~~ water ~~~ ROV modem <--socat-- :4000
 xhost +local:docker
 docker compose up -d --build
 # Once per terminal:
-docker exec -it bluerov-sim-fixed bash
+docker exec -it simulator_desert-bluerov bash
 ```
 
-## Run  
+## Run
 
 ```bash
 # 1 - Gazebo
@@ -35,7 +35,7 @@ socat TCP-LISTEN:5000,fork TCP:<SURFACE_MODEM_IP>:55555
 RMW_IMPLEMENTATION=rmw_desert DESERT_PORT=5000 ros2 run bluerov_controller xbox
 ```
 
-Start the modems first (`./startmodem.sh`), and the socats before sub.py and the controller, otherwise rmw_desert has nothing to connect to.
+Start the modems first (`./startmodem.sh` on the SuM side, it's not in this container), and the socats before sub.py and the controller, otherwise rmw_desert has nothing to connect to.
 
 Both bridge scripts log every command and pose they send or receive, with timestamps.
 
@@ -43,7 +43,7 @@ No modems? Skip the socats and sub/pub, run `python3 relay.py` instead and start
 
 ## Settings
 
-Everything is in `bridge/config.yaml`. The ones that matter for the acoustic link:
+Everything is in `src/bridge/config.yaml` (the bridge folder in the container). The ones that matter for the acoustic link:
 
 
 ## No Xbox pad? Use the keyboard
